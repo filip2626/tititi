@@ -1,3 +1,5 @@
+ -- this menu is reposted, not mine
+
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
@@ -26,12 +28,12 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local MainTab = Window:CreateTab("main", nil) -- Title, Image
-local MainSection = MainTab:CreateSection("aimbot")
+local MainTab = Window:CreateTab("tiov", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("gaybot")
 
 Rayfield:Notify({
-   Title = "Yahhh",
-   Content = "ok Content",
+   Title = "gayboi",
+   Content = "brokeboi",
    Duration = 6.5,
    Image = nil,
    Actions = { -- Notification Buttons
@@ -1991,7 +1993,7 @@ end)
 })
 
 local Button = MainTab:CreateButton({
-   Name = "ctrl-click del",
+   Name = "dostanes ban tulo",
    Callback = function()
 local Plr = game:GetService("Players").LocalPlayer
 local Mouse = Plr:GetMouse()
@@ -2005,7 +2007,7 @@ end)
 })
 
 local Button = MainTab:CreateButton({
-   Name = "primery aimlock",
+   Name = "idk nejaka tulovina",
    Callback = function()
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
  
@@ -2629,7 +2631,7 @@ Callback = <function> - The function of the button.
 })
 
 local Button = MainTab:CreateButton({
-   Name = "more aimlock",
+   Name = "tulovina 2",
    Callback = function()
 game.StarterGui:SetCore(
 	"SendNotification",
